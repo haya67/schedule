@@ -4,7 +4,7 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.string :title
       t.datetime :start
       t.datetime :finish
-      t.boolean :all-day
+      t.boolean :all_day
 
       t.timestamps
     end
